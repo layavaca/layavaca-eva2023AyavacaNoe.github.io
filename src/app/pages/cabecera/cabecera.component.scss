@@ -8,3 +8,12 @@ h1{
         text-align: center;
       
 }
+.imagen {
+    position: relative;
+  }
+  
+  .esquina-superior-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
