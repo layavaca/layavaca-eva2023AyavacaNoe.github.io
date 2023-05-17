@@ -1,0 +1,15 @@
+
+
+<p>list-contactos works!</p>
+
+<span *ngIf="listadoCarreras.length == 0">
+    No existen carreras
+</span>
+
+<ul>
+    <li *ngFor="let carrera of listadoCarreras;">
+        <!--<a (click)="editar(carrera)">{{carrera.nombre}} | {{carrera.nivel}} </a>
+        -<a href="" (click)="eliminar($event, carrera)">Eliminar</a>-->>
+    </li>
+    
+</ul>
